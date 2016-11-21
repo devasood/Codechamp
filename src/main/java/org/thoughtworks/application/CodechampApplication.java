@@ -1,14 +1,14 @@
-package com.thoughtworks.application;
+package org.thoughtworks.application;
 
-import com.thoughtworks.configuration.CodechampConfiguration;
-import com.thoughtworks.resources.CodechampResource;
-import com.thoughtworks.services.CodechampService;
+import org.thoughtworks.configuration.CodechampConfiguration;
+import org.thoughtworks.resources.CodechampResource;
+import org.thoughtworks.services.CodechampService;
 import io.dropwizard.Application;
 import io.dropwizard.setup.Environment;
 
 public class CodechampApplication extends Application<CodechampConfiguration> {
   public static void main(String[] args) throws Exception {
-    new CodechampApplication().run();
+    new CodechampApplication().run(args);
   }
 
   @Override public void run(CodechampConfiguration configuration, Environment environment) throws Exception {

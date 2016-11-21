@@ -1,4 +1,4 @@
-package com.thoughtworks.services;
+package org.thoughtworks.services;
 
 public class CodechampService {
   public String getIndex() {

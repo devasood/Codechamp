@@ -1,6 +1,6 @@
-package com.thoughtworks.resources;
+package org.thoughtworks.resources;
 
-import com.thoughtworks.services.CodechampService;
+import org.thoughtworks.services.CodechampService;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;

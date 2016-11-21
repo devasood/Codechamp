@@ -1,4 +1,4 @@
-package com.thoughtworks.configuration;
+package org.thoughtworks.configuration;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import io.dropwizard.Configuration;
